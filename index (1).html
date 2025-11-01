@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.yb68 Store</title>
+    <link rel="stylesheet" href="#styles">
+</head>
+<body>
+    <div class="bg-animation"></div>
+
+    <header>
+        <div class="logo">1.yb68</div>
+        <nav>
+            <a href="#" onclick="showPage('home')">Home</a>
+            <a href="#" onclick="showPage('products')">Products</a>
+            <a href="#" onclick="showPage('contact')">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME PAGE -->
+    <div id="home-page" class="page active">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to 1.yb68 Store</h1>
+                <p class="hero-subtitle">Your gateway to premium products around Mulhouse</p>
+                <p class="hero-description">Experience the future of shopping with an exceptional service. We bring you the best products from around the world.</p>
+                <button class="cta-btn" onclick="showPage('products')">Shop Now</button>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Fast Delivery</h3>
+                    <p>Express shipping. Get your products delivered the fastest as we can.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure Payment</h3>
+                    <p>Your transactions are protected with PayPal.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">⭐</div>
+                    <h3>Premium Quality</h3>
+                    <p>Only the finest products make it to our collection.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">💬</div>
+                    <h3>24/7 Support</h3>
+                    <p>I'm is always ready to help you with any questions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="showcase">
+            <div class="showcase-grid">
+                <div class="showcase-card">
+                    <div class="showcase-image">
+                        <div class="image-placeholder">📱</div>
+                    </div>
+                    <h3>Latest Trending Products</h3>
+                    <p>Cutting-edge products</p>
+                </div>
+                <div class="showcase-card">
+                    <div class="showcase-image">
+                        <div class="image-placeholder">🎧</div>
+                    </div>
+                    <h3>Audio Excellence</h3>
+                    <p>Premium headphones and speakers</p>
+                </div>
+                <div class="showcase-card">
+                    <div class="showcase-image">
+                        <div class="image-placeholder">⌚</div>
+                    </div>
+                    <h3>Wearable Tech</h3>
+                    <p>Smart watches and fitness trackers</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- PRODUCTS PAGE -->
+    <div id="products-page" class="page">
+        <section class="page-header">
+            <h1>Our Products</h1>
+            <p>Browse our exclusive collection</p>
+        </section>
+
+        <section class="products-container">
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">🎮</div>
+                    <h3 class="product-title">Gaming Console Pro</h3>
+                    <div class="product-price">$499</div>
+                    <p class="product-description">Next-generation gaming experience with ultra-realistic graphics and lightning-fast performance.</p>
+                    <button class="buy-btn" onclick="showPage('contact')">Buy Now</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">🎧</div>
+                    <h3 class="product-title">Wireless Headphones</h3>
+                    <div class="product-price">$299</div>
+                    <p class="product-description">Premium sound quality with active noise cancellation and 30-hour battery life.</p>
+                    <button class="buy-btn" onclick="showPage('contact')">Buy Now</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">⌚</div>
+                    <h3 class="product-title">Smart Watch Elite</h3>
+                    <div class="product-price">$399</div>
+                    <p class="product-description">Track your fitness, health, and stay connected with style and precision.</p>
+                    <button class="buy-btn" onclick="showPage('contact')">Buy Now</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">📱</div>
+                    <h3 class="product-title">Smartphone X</h3>
+                    <div class="product-price">$899</div>
+                    <p class="product-description">Cutting-edge technology with professional-grade camera and blazing speed.</p>
+                    <button class="buy-btn" onclick="showPage('contact')">Buy Now</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">💻</div>
+                    <h3 class="product-title">Laptop Ultra</h3>
+                    <div class="product-price">$1299</div>
+                    <p class="product-description">Powerful performance meets sleek design for creators and professionals.</p>
+                    <button class="buy-btn" onclick="showPage('contact')">Buy Now</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">📷</div>
+                    <h3 class="product-title">Camera Pro 4K</h3>
+                    <div class="product-price">$799</div>
+                    <p class="product-description">Capture stunning moments in 4K resolution with professional-grade features.</p>
+                    <button class="buy-btn" onclick="showPage('contact')">Buy Now</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- CONTACT PAGE -->
+    <div id="contact-page" class="page">
+        <section class="page-header">
+            <h1>Get In Touch</h1>
+            <p>Connect with us on social media</p>
+        </section>
+
+        <section class="contact-container">
+            <div class="contact-grid">
+                <a href="https://www.snapchat.com/add/a1b.68" target="_blank" class="social-card snapchat">
+                    <div class="social-icon">👻</div>
+                    <h3>Snapchat</h3>
+                    <p>1.yb68</p>
+                    <div class="social-btn">Add Us</div>
+                </a>
+
+                <a href="https://www.tiktok.com/@yourusername" target="_blank" class="social-card tiktok">
+                    <div class="social-icon">🎵</div>
+                    <h3>TikTok</h3>
+                    <p>@yourusername</p>
+                    <div class="social-btn">Follow Us</div>
+                </a>
+
+                <a href="https://www.instagram.com/yourusername" target="_blank" class="social-card instagram">
+                    <div class="social-icon">📸</div>
+                    <h3>Instagram</h3>
+                    <p>@yourusername</p>
+                    <div class="social-btn">Follow Us</div>
+                </a>
+            </div>
+
+            <div class="contact-info">
+                <h2>Why Connect With Us?</h2>
+                <div class="info-list">
+                    <div class="info-item">
+                        <span class="info-icon">✨</span>
+                        <p>Exclusive deals and early access to new products</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">💬</span>
+                        <p>Direct communication for orders and support</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🎁</span>
+                        <p>Special promotions and giveaways</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 NEXUS Store. All rights reserved.</p>
+    </footer>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #fff;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        /* Animated Background */
+        .bg-animation {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            overflow: hidden;
+        }
+
+        .bg-animation::before {
+            content: '';
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(138, 43, 226, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            top: -250px;
+            right: -250px;
+            animation: float 20s infinite;
+        }
+
+        .bg-animation::after {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(0, 191, 255, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            bottom: -200px;
+            left: -200px;
+            animation: float 15s infinite reverse;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            33% { transform: translate(100px, -100px) rotate(120deg); }
+            66% { transform: translate(-50px, 100px) rotate(240deg); }
+        }
+
+        /* Header */
+        header {
+            position: relative;
+            z-index: 10;
+            padding: 2rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #8a2be2, #00bfff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #8a2be2, #00bfff);
+            transition: width 0.3s;
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        /* Page Management */
+        .page {
+            display: none;
+            animation: fadeIn 0.5s;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            z-index: 1;
+            padding: 6rem 5% 4rem;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 4.5rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #fff, #8a2be2, #00bfff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: glow 3s ease-in-out infinite;
+        }
+
+        @keyframes glow {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+
+        .hero-subtitle {
+            font-size: 1.5rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .hero-description {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        .cta-btn {
+            padding: 1.2rem 3rem;
+            background: linear-gradient(135deg, #8a2be2, #00bfff);
+            border: none;
+            border-radius: 50px;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .cta-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 40px rgba(138, 43, 226, 0.5);
+        }
+
+        /* Features Section */
+        .features {
+            position: relative;
+            z-index: 1;
+            padding: 4rem 5%;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-item {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.4s;
+        }
+
+        .feature-item:hover {
+            transform: translateY(-10px);
+            border-color: rgba(138, 43, 226, 0.5);
+            box-shadow: 0 15px 40px rgba(138, 43, 226, 0.3);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-item h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #8a2be2, #00bfff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .feature-item p {
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.6;
+        }
+
+        /* Showcase Section */
+        .showcase {
+            position: relative;
+            z-index: 1;
+            padding: 4rem 5%;
+        }
+
+        .showcase-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .showcase-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.4s;
+        }
+
+        .showcase-card:hover {
+            transform: translateY(-10px);
+            border-color: rgba(138, 43, 226, 0.5);
+        }
+
+        .showcase-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            border-radius: 15px;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .image-placeholder {
+            font-size: 5rem;
+        }
+
+        .showcase-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .showcase-card p {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Page Header */
+        .page-header {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 4rem 5% 2rem;
+        }
+
+        .page-header h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #fff, #8a2be2, #00bfff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-header p {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Products */
+        .products-container {
+            position: relative;
+            z-index: 1;
+            padding: 2rem 5% 4rem;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .product-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 2rem;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .product-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(138, 43, 226, 0.1), rgba(0, 191, 255, 0.1));
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            border-color: rgba(138, 43, 226, 0.5);
+            box-shadow: 0 20px 60px rgba(138, 43, 226, 0.3);
+        }
+
+        .product-card:hover::before {
+            opacity: 1;
+        }
+
+        .product-image {
+            width: 100%;
+            height: 250px;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            border-radius: 15px;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .product-image::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transform: rotate(45deg);
+            animation: shine 3s infinite;
+        }
+
+        @keyframes shine {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+
+        .product-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .product-price {
+            font-size: 1.8rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #8a2be2, #00bfff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .product-description {
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+            position: relative;
+            z-index: 1;
+        }
+
+        .buy-btn {
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(135deg, #8a2be2, #00bfff);
+            border: none;
+            border-radius: 12px;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+            z-index: 1;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .buy-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(138, 43, 226, 0.5);
+        }
+
+        /* Contact Page */
+        .contact-container {
+            position: relative;
+            z-index: 1;
+            padding: 2rem 5% 4rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .social-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 3rem 2rem;
+            text-align: center;
+            transition: all 0.4s;
+            text-decoration: none;
+            color: #fff;
+            display: block;
+        }
+
+        .social-card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 20px 60px rgba(138, 43, 226, 0.4);
+        }
+
+        .social-card.snapchat:hover {
+            border-color: #FFFC00;
+            box-shadow: 0 20px 60px rgba(255, 252, 0, 0.3);
+        }
+
+        .social-card.tiktok:hover {
+            border-color: #00f2ea;
+            box-shadow: 0 20px 60px rgba(0, 242, 234, 0.3);
+        }
+
+        .social-card.instagram:hover {
+            border-color: #E1306C;
+            box-shadow: 0 20px 60px rgba(225, 48, 108, 0.3);
+        }
+
+        .social-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .social-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .social-card p {
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 1.5rem;
+        }
+
+        .social-btn {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: linear-gradient(135deg, #8a2be2, #00bfff);
+            border-radius: 50px;
+            font-weight: 700;
+            transition: all 0.3s;
+        }
+
+        .social-card:hover .social-btn {
+            transform: scale(1.1);
+        }
+
+        .contact-info {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 3rem;
+            text-align: center;
+        }
+
+        .contact-info h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(135deg, #8a2be2, #00bfff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .info-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            text-align: left;
+        }
+
+        .info-icon {
+            font-size: 2rem;
+            flex-shrink: 0;
+        }
+
+        .info-item p {
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 2rem 5%;
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.05);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 4rem;
+        }
+
+        footer p {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            nav {
+                gap: 1rem;
+            }
+
+            .products-grid, .feature-grid, .showcase-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .page-header h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+
+    <script>
+        // Page Navigation
+        function showPage(pageName) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+            
+            // Show selected page
+            const selectedPage = document.getElementById(pageName + '-page');
+            if (selectedPage) {
+                selectedPage.classList.add('active');
+                window.scrollTo(0, 0);
+            }
+        }
+
+        // Scroll animations for product cards
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements when products page is shown
+        function observeElements() {
+            document.querySelectorAll('.product-card, .feature-item, .showcase-card').forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                card.style.transition = 'all 0.6s ease-out';
+                observer.observe(card);
+            });
+        }
+
+        // Initialize on page load
+        window.addEventListener('DOMContentLoaded', () => {
+            observeElements();
+        });
+    </script>
+</body>
+</html>
